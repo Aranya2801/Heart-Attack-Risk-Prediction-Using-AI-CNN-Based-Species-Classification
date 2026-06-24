@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Env files
+.env
+.env.local
+*.env.*
+!*.env.example
+!.env.local.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# Datasets & training artifacts (large/PHI-sensitive — see datasets/README.md)
+datasets/raw/*
+!datasets/raw/.gitkeep
+training/heart_risk/evaluation_results/
+training/heart_risk/catboost_info/
+training/species/models/
+training/species/evaluation_results/
+training/heart_risk/models/transformer_experimental.pt
+
+# Generated runtime reports (often contain patient-identifying info)
+backend/generated_reports/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Alembic
+backend/alembic/versions/*.py
+!backend/alembic/versions/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/

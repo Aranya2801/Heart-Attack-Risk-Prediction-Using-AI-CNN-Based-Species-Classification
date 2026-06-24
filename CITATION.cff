@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+title: "AI Healthcare Platform: Explainable Cardiovascular Risk Prediction and Medical Image Species Classification"
+authors:
+  - family-names: "[Your Last Name]"
+    given-names: "[Your First Name]"
+    affiliation: "[Your Institution]"
+version: 0.1.0
+date-released: 2026-06-20
+url: "https://github.com/your-org/Heart-Attack-Risk-Prediction-Using-AI-CNN-Based-Species-Classification"
+license: MIT
+keywords:
+  - machine learning
+  - explainable AI
+  - healthcare
+  - cardiovascular risk prediction
+  - medical image classification
+  - SHAP
+  - Grad-CAM
+preferred-citation:
+  type: software
+  title: "AI Healthcare Platform"
+  authors:
+    - family-names: "[Your Last Name]"
+      given-names: "[Your First Name]"
+  year: 2026
+  url: "https://github.com/your-org/Heart-Attack-Risk-Prediction-Using-AI-CNN-Based-Species-Classification"
