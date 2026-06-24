@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E7C61"/>
+      <stop offset="100%" stop-color="#3B7DD8"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="36" fill="#081016"/>
+  <circle cx="100" cy="100" r="78" fill="none" stroke="url(#logoGrad)" stroke-width="3" opacity="0.4"/>
+
+  <!-- heart-pulse glyph -->
+  <path d="M30 105 L70 105 L82 70 L100 140 L116 95 L128 105 L170 105"
+        fill="none" stroke="url(#logoGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- microscopy cell dots, orbiting the pulse -->
+  <circle cx="148" cy="58" r="9" fill="none" stroke="#3B7DD8" stroke-width="3"/>
+  <circle cx="166" cy="78" r="5" fill="none" stroke="#3B7DD8" stroke-width="3"/>
+  <circle cx="48" cy="146" r="7" fill="none" stroke="#0E7C61" stroke-width="3"/>
+</svg>
